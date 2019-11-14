@@ -1,0 +1,20 @@
+{
+  "name": "simple-disk-space",
+  "version": "1.0.0",
+  "description": "An app to send disk space",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "check-disk-space": "^2.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.2",
+    "moment": "^2.20.1",
+    "spacebro-client": "^0.4.2",
+    "standard-settings": "^1.1.10"
+  },
+  "author": "Emmanuel Geoffray",
+  "license": "ISC"
+}

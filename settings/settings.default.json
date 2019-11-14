@@ -1,0 +1,27 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 37300
+  },
+  "service": {
+    "spacebro":{
+      "host": "spacebro.space",
+      "port": 3333,
+      "channelName": "media-stream",
+      "client": {
+        "name": "simple-disk-space",
+        "description": "Get disk space",
+				"in": {
+					"inMessage": {
+						"eventName": "inMessage",
+						"description": "Input message",
+						"type": "all"
+					}
+        }
+      },
+      "connection": [
+      ]
+    }
+  },
+  "diskPath": "/"
+}
