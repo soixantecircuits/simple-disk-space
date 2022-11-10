@@ -12,7 +12,7 @@
     "cors": "^2.8.5",
     "express": "^4.16.2",
     "moment": "^2.20.1",
-    "spacebro-client": "^0.4.2",
+    "spacebro-client": "^0.4.8",
     "standard-settings": "^1.1.10"
   },
   "author": "Emmanuel Geoffray",
