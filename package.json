@@ -10,7 +10,7 @@
   "dependencies": {
     "check-disk-space": "^2.1.0",
     "cors": "^2.8.5",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "moment": "^2.20.1",
     "spacebro-client": "^0.4.2",
     "standard-settings": "^1.1.10"
